@@ -1,0 +1,3 @@
+include ':app', ':lib', ':JOpenCTM-1.0', ':gdxbackendandroid'
+include ':gdxjnigen'
+include ':gdx'

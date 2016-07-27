@@ -1,0 +1,259 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From gdx:
+* AUTHORS
+* AndroidManifest.xml
+* CC-LICENSE
+* CONTRIBUTORS
+* LICENSE
+* NOTICE
+* dist\
+* dist\AUTHORS
+* dist\CC-LICENSE
+* dist\CONTRIBUTORS
+* dist\LICENSE
+* dist\README
+* dist\armeabi\
+* dist\armeabi\libandroidgl20.so
+* jni\
+* jni\Android.mk
+* jni\Application.mk
+* jni\Box2D\
+* jni\Box2D\Box2D.h
+* jni\Box2D\CHANGES
+* jni\Box2D\Collision\
+* jni\Box2D\Collision\Shapes\
+* jni\Box2D\Collision\Shapes\b2ChainShape.cpp
+* jni\Box2D\Collision\Shapes\b2ChainShape.h
+* jni\Box2D\Collision\Shapes\b2CircleShape.cpp
+* jni\Box2D\Collision\Shapes\b2CircleShape.h
+* jni\Box2D\Collision\Shapes\b2EdgeShape.cpp
+* jni\Box2D\Collision\Shapes\b2EdgeShape.h
+* jni\Box2D\Collision\Shapes\b2PolygonShape.cpp
+* jni\Box2D\Collision\Shapes\b2PolygonShape.h
+* jni\Box2D\Collision\Shapes\b2Shape.h
+* jni\Box2D\Collision\b2BroadPhase.cpp
+* jni\Box2D\Collision\b2BroadPhase.h
+* jni\Box2D\Collision\b2CollideCircle.cpp
+* jni\Box2D\Collision\b2CollideEdge.cpp
+* jni\Box2D\Collision\b2CollidePolygon.cpp
+* jni\Box2D\Collision\b2Collision.cpp
+* jni\Box2D\Collision\b2Collision.h
+* jni\Box2D\Collision\b2Distance.cpp
+* jni\Box2D\Collision\b2Distance.h
+* jni\Box2D\Collision\b2DynamicTree.cpp
+* jni\Box2D\Collision\b2DynamicTree.h
+* jni\Box2D\Collision\b2TimeOfImpact.cpp
+* jni\Box2D\Collision\b2TimeOfImpact.h
+* jni\Box2D\Common\
+* jni\Box2D\Common\b2BlockAllocator.cpp
+* jni\Box2D\Common\b2BlockAllocator.h
+* jni\Box2D\Common\b2Draw.cpp
+* jni\Box2D\Common\b2Draw.h
+* jni\Box2D\Common\b2GrowableStack.h
+* jni\Box2D\Common\b2Math.cpp
+* jni\Box2D\Common\b2Math.h
+* jni\Box2D\Common\b2Settings.cpp
+* jni\Box2D\Common\b2Settings.h
+* jni\Box2D\Common\b2StackAllocator.cpp
+* jni\Box2D\Common\b2StackAllocator.h
+* jni\Box2D\Common\b2Timer.cpp
+* jni\Box2D\Common\b2Timer.h
+* jni\Box2D\Dynamics\
+* jni\Box2D\Dynamics\Contacts\
+* jni\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp
+* jni\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h
+* jni\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp
+* jni\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h
+* jni\Box2D\Dynamics\Contacts\b2CircleContact.cpp
+* jni\Box2D\Dynamics\Contacts\b2CircleContact.h
+* jni\Box2D\Dynamics\Contacts\b2Contact.cpp
+* jni\Box2D\Dynamics\Contacts\b2Contact.h
+* jni\Box2D\Dynamics\Contacts\b2ContactSolver.cpp
+* jni\Box2D\Dynamics\Contacts\b2ContactSolver.h
+* jni\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp
+* jni\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h
+* jni\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp
+* jni\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h
+* jni\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp
+* jni\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h
+* jni\Box2D\Dynamics\Contacts\b2PolygonContact.cpp
+* jni\Box2D\Dynamics\Contacts\b2PolygonContact.h
+* jni\Box2D\Dynamics\Joints\
+* jni\Box2D\Dynamics\Joints\b2DistanceJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2DistanceJoint.h
+* jni\Box2D\Dynamics\Joints\b2FrictionJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2FrictionJoint.h
+* jni\Box2D\Dynamics\Joints\b2GearJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2GearJoint.h
+* jni\Box2D\Dynamics\Joints\b2Joint.cpp
+* jni\Box2D\Dynamics\Joints\b2Joint.h
+* jni\Box2D\Dynamics\Joints\b2MouseJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2MouseJoint.h
+* jni\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2PrismaticJoint.h
+* jni\Box2D\Dynamics\Joints\b2PulleyJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2PulleyJoint.h
+* jni\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2RevoluteJoint.h
+* jni\Box2D\Dynamics\Joints\b2RopeJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2RopeJoint.h
+* jni\Box2D\Dynamics\Joints\b2WeldJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2WeldJoint.h
+* jni\Box2D\Dynamics\Joints\b2WheelJoint.cpp
+* jni\Box2D\Dynamics\Joints\b2WheelJoint.h
+* jni\Box2D\Dynamics\b2Body.cpp
+* jni\Box2D\Dynamics\b2Body.h
+* jni\Box2D\Dynamics\b2ContactManager.cpp
+* jni\Box2D\Dynamics\b2ContactManager.h
+* jni\Box2D\Dynamics\b2Fixture.cpp
+* jni\Box2D\Dynamics\b2Fixture.h
+* jni\Box2D\Dynamics\b2Island.cpp
+* jni\Box2D\Dynamics\b2Island.h
+* jni\Box2D\Dynamics\b2TimeStep.h
+* jni\Box2D\Dynamics\b2World.cpp
+* jni\Box2D\Dynamics\b2World.h
+* jni\Box2D\Dynamics\b2WorldCallbacks.cpp
+* jni\Box2D\Dynamics\b2WorldCallbacks.h
+* jni\Box2D\Rope\
+* jni\Box2D\Rope\b2Rope.cpp
+* jni\Box2D\Rope\b2Rope.h
+* jni\build-android32.xml
+* jni\build-linux32.xml
+* jni\build-linux64.xml
+* jni\build-macosx32.xml
+* jni\build-windows32.xml
+* jni\build-windows32home.xml
+* jni\build-windows64.xml
+* jni\build.xml
+* jni\com.badlogic.gdx.graphics.g2d.Gdx2DPixmap.cpp
+* jni\com.badlogic.gdx.graphics.g2d.Gdx2DPixmap.h
+* jni\com.badlogic.gdx.graphics.g3d.loaders.md5.MD5Jni.cpp
+* jni\com.badlogic.gdx.graphics.g3d.loaders.md5.MD5Jni.h
+* jni\com.badlogic.gdx.graphics.glutils.ETC1.cpp
+* jni\com.badlogic.gdx.graphics.glutils.ETC1.h
+* jni\com.badlogic.gdx.math.Matrix4.cpp
+* jni\com.badlogic.gdx.math.Matrix4.h
+* jni\com.badlogic.gdx.physics.box2d.Body.cpp
+* jni\com.badlogic.gdx.physics.box2d.Body.h
+* jni\com.badlogic.gdx.physics.box2d.ChainShape.cpp
+* jni\com.badlogic.gdx.physics.box2d.ChainShape.h
+* jni\com.badlogic.gdx.physics.box2d.CircleShape.cpp
+* jni\com.badlogic.gdx.physics.box2d.CircleShape.h
+* jni\com.badlogic.gdx.physics.box2d.Contact.cpp
+* jni\com.badlogic.gdx.physics.box2d.Contact.h
+* jni\com.badlogic.gdx.physics.box2d.ContactImpulse.cpp
+* jni\com.badlogic.gdx.physics.box2d.ContactImpulse.h
+* jni\com.badlogic.gdx.physics.box2d.EdgeShape.cpp
+* jni\com.badlogic.gdx.physics.box2d.EdgeShape.h
+* jni\com.badlogic.gdx.physics.box2d.Fixture.cpp
+* jni\com.badlogic.gdx.physics.box2d.Fixture.h
+* jni\com.badlogic.gdx.physics.box2d.Joint.cpp
+* jni\com.badlogic.gdx.physics.box2d.Joint.h
+* jni\com.badlogic.gdx.physics.box2d.Manifold.cpp
+* jni\com.badlogic.gdx.physics.box2d.Manifold.h
+* jni\com.badlogic.gdx.physics.box2d.PolygonShape.cpp
+* jni\com.badlogic.gdx.physics.box2d.PolygonShape.h
+* jni\com.badlogic.gdx.physics.box2d.Shape.cpp
+* jni\com.badlogic.gdx.physics.box2d.Shape.h
+* jni\com.badlogic.gdx.physics.box2d.World.cpp
+* jni\com.badlogic.gdx.physics.box2d.World.h
+* jni\com.badlogic.gdx.physics.box2d.joints.DistanceJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.DistanceJoint.h
+* jni\com.badlogic.gdx.physics.box2d.joints.FrictionJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.FrictionJoint.h
+* jni\com.badlogic.gdx.physics.box2d.joints.GearJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.GearJoint.h
+* jni\com.badlogic.gdx.physics.box2d.joints.MouseJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.MouseJoint.h
+* jni\com.badlogic.gdx.physics.box2d.joints.PrismaticJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.PrismaticJoint.h
+* jni\com.badlogic.gdx.physics.box2d.joints.PulleyJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.PulleyJoint.h
+* jni\com.badlogic.gdx.physics.box2d.joints.RevoluteJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.RevoluteJoint.h
+* jni\com.badlogic.gdx.physics.box2d.joints.RopeJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.RopeJoint.h
+* jni\com.badlogic.gdx.physics.box2d.joints.WheelJoint.cpp
+* jni\com.badlogic.gdx.physics.box2d.joints.WheelJoint.h
+* jni\com.badlogic.gdx.utils.BufferUtils.cpp
+* jni\com.badlogic.gdx.utils.BufferUtils.h
+* jni\etc1\
+* jni\etc1\etc1_utils.cpp
+* jni\etc1\etc1_utils.h
+* jni\gdx2d\
+* jni\gdx2d\gdx2d.c
+* jni\gdx2d\gdx2d.h
+* jni\gdx2d\stb_image.c
+* jni\jni-headers\
+* jni\jni-headers\classfile_constants.h
+* jni\jni-headers\jawt.h
+* jni\jni-headers\jdwpTransport.h
+* jni\jni-headers\jni.h
+* jni\jni-headers\linux\
+* jni\jni-headers\linux\jawt_md.h
+* jni\jni-headers\linux\jni_md.h
+* jni\jni-headers\mac\
+* jni\jni-headers\mac\jni_md.h
+* jni\jni-headers\win32\
+* jni\jni-headers\win32\jawt_md.h
+* jni\jni-headers\win32\jni_md.h
+From gdx-jnigen:
+* AndroidManifest.xml
+* pom.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In gdx-jnigen:
+* libs\javaparser-core-2.3.0.jar => gdxjnigen\libs\javaparser-core-2.3.0.jar
+* src\ => gdxjnigen\src\main\java\
+* src\com\badlogic\gdx\jnigen\resources\headers\classfile_constants.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\classfile_constants.h
+* src\com\badlogic\gdx\jnigen\resources\headers\jawt.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\jawt.h
+* src\com\badlogic\gdx\jnigen\resources\headers\jdwpTransport.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\jdwpTransport.h
+* src\com\badlogic\gdx\jnigen\resources\headers\jni.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\jni.h
+* src\com\badlogic\gdx\jnigen\resources\headers\linux\jawt_md.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\linux\jawt_md.h
+* src\com\badlogic\gdx\jnigen\resources\headers\linux\jni_md.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\linux\jni_md.h
+* src\com\badlogic\gdx\jnigen\resources\headers\mac\jni_md.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\mac\jni_md.h
+* src\com\badlogic\gdx\jnigen\resources\headers\win32\jawt_md.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\win32\jawt_md.h
+* src\com\badlogic\gdx\jnigen\resources\headers\win32\jni_md.h => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\headers\win32\jni_md.h
+* src\com\badlogic\gdx\jnigen\resources\scripts\Android.mk.template => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\scripts\Android.mk.template
+* src\com\badlogic\gdx\jnigen\resources\scripts\Application.mk.template => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\scripts\Application.mk.template
+* src\com\badlogic\gdx\jnigen\resources\scripts\build-android.xml.template => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\scripts\build-android.xml.template
+* src\com\badlogic\gdx\jnigen\resources\scripts\build-ios.xml.template => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\scripts\build-ios.xml.template
+* src\com\badlogic\gdx\jnigen\resources\scripts\build-target.xml.template => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\scripts\build-target.xml.template
+* src\com\badlogic\gdx\jnigen\resources\scripts\build.xml.template => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\scripts\build.xml.template
+* src\com\badlogic\gdx\jnigen\resources\scripts\memcpy_wrap.c => gdxjnigen\src\main\resources\com\badlogic\gdx\jnigen\resources\scripts\memcpy_wrap.c
+In gdx:
+* libs\gdx-natives.jar => gdx\libs\gdx-natives.jar
+* src\ => gdx\src\main\java\
+* src\com\badlogic\gdx.gwt.xml => gdx\src\main\resources\com\badlogic\gdx.gwt.xml
+* src\com\badlogic\gdx\utils\arial-15.fnt => gdx\src\main\resources\com\badlogic\gdx\utils\arial-15.fnt
+* src\com\badlogic\gdx\utils\arial-15.png => gdx\src\main\resources\com\badlogic\gdx\utils\arial-15.png
+* src\com\badlogic\gdx\utils\JsonReader.rl => gdx\src\main\resources\com\badlogic\gdx\utils\JsonReader.rl
+* src\com\badlogic\gdx\utils\XmlReader.rl => gdx\src\main\resources\com\badlogic\gdx\utils\XmlReader.rl
+* src\com\esotericsoftware\TableLayout.gwt.xml => gdx\src\main\resources\com\esotericsoftware\TableLayout.gwt.xml
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
